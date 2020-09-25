@@ -4,6 +4,37 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [6.4.0] - 2020-01-31
+
+### Changed
+- Update dependencies to prepare for Laravel 7 ([#376](https://github.com/laravel-zero/framework/pull/376))
+- Update to support PHP 7.4 ([#375](https://github.com/laravel-zero/framework/pull/375))
+
+## [6.3.0] - 2020-01-12
+
+### Added
+- Allow for overriding default providers on installed components ([#370](https://github.com/laravel-zero/framework/pull/370))
+
+### Changed
+- Remove 'useDefaultProvider' from config stubs ([#372](https://github.com/laravel-zero/framework/pull/372))
+
+## [6.2.0] - 2019-12-13
+
+### Added
+- Add `schedule-list` component ([#351](https://github.com/laravel-zero/framework/pull/351))
+
+## [6.1.0] - 2019-12-05
+
+### Added
+- Add missing `db:wipe` command ([#367](https://github.com/laravel-zero/framework/pull/367))
+
+### Changed
+- Update Box to v3.8.3 ([#371](https://github.com/laravel-zero/framework/pull/371))
+
+### Fixed
+- Fix build command cancellation ([#365](https://github.com/laravel-zero/framework/pull/365))
+- Fix breaking change with factory autoloading ([#366](https://github.com/laravel-zero/framework/pull/366))
+
 ## [6.0.0] - 2019-10-05
 
 Check the upgrade guide in the [Official Laravel Zero Upgrade Documentation](https://laravel-zero.com/docs/upgrade/#upgrade-6.0.0). Also you can see some changes in the [Official Laravel Upgrade Documentation](https://laravel.com/docs/6.x/upgrade).
